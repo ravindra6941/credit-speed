@@ -147,12 +147,11 @@ export default function AboutPage() {
 
         {/* Stats */}
         <section className="py-16 px-6 lg:px-12 border-t border-white/5">
-          <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="max-w-4xl mx-auto grid grid-cols-3 gap-8 text-center">
             {[
               { value: "500+", label: "Retailers" },
               { value: "10K+", label: "Loans Processed" },
               { value: "8", label: "Cities" },
-              { value: "10+", label: "NBFC Partners" },
             ].map((s) => (
               <div key={s.label}>
                 <p className="font-display text-white text-5xl sm:text-6xl tracking-tighter leading-none mb-2">
